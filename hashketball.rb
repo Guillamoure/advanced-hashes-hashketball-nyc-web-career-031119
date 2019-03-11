@@ -132,6 +132,11 @@ def num_points_scored(player_name)
   return answer
 end
 
+def shoe_size(name)
+ 
+    player_stats(name)[:shoe]
+end
+
 def shoe_size(player_name)
   answer = ""
   game_hash.each do |location, team_data|
